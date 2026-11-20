@@ -1,0 +1,36 @@
+{
+  "id": "this_town_magazine_01_fancy",
+  "surface": "reddit",
+  "stage": "reddit.json",
+  "motif": "this_town",
+  "target": "magazine",
+  "tier": "fancy",
+  "body": "A place that feeds on what draws people in\u2014heavy air, old guilt, and shoegaze drift.",
+  "brand_ref": {
+    "name": "Darker Side of Passion",
+    "domain": "ledante.com",
+    "ssot_source": "/media/ran/mu/notebook_runtime/src/notebooks/000/branding.yml"
+  },
+  "gates": {
+    "allow_template_to_publish": false,
+    "web_sense_eligible": false
+  },
+  "poc": {
+    "edit_phase_skipped": true,
+    "illustrated_tier_status": "deferred_pending_fsr",
+    "legal_yaml_pass": true,
+    "legacy_milestone": "raw",
+    "harness_pass": [
+      "read",
+      "brick",
+      "strip",
+      "post"
+    ]
+  },
+  "media": {
+    "image": null,
+    "video": "assets/this_town_magazine_stub.mp4",
+    "alt_text": null
+  },
+  "link": "https://ledante.com"
+}
