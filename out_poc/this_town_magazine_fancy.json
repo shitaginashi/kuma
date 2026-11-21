@@ -5,11 +5,132 @@
   "motif": "this_town",
   "target": "magazine",
   "tier": "fancy",
-  "body": "A place that feeds on what draws people in\u2014heavy air, old guilt, and shoegaze drift.",
+  "body": "A place that feeds on what draws people in; heavy air, old guilt, and shoegaze drift. He spoke of tortured souls So outrageous the toll You can lose all you have He refused to give in to the town that takes all Survive, you must have the will This movie doesn't end the way we want all the time Then he shouts at the moon She's gone, and fear has overcome He was walking the mile, he was walking alone So outrageous the toll You can lose all you have He refused to give in to the town that takes all Survive, you must have the will This movie doesn't end the way we want all the time Then he shouts at the moon She's gone, and fear has overcome He was walking the mile, he was walking alone Four and twenty dead-birds, they bleed upon the nest There was no time for reason, they had no sign of a threat Now it's too late, too late for me This town will eventually take me Too late, too late for me This town will win Through this fog they came along Dark creatures singing a terrible song The rest of the bar laughed at him Only I felt my hope grow dim They found him dead the very next day No more stories from him, I heard them say We blamed bad luck for his fate Only I felt terror so great She and he will know That someday all things will end That misty night That dismal moon The dead search for their kin While angels sing, in endless dark The dead seek out sin...",
   "brand_ref": {
     "name": "Darker Side of Passion",
     "domain": "ledante.com",
     "ssot_source": "/media/ran/mu/notebook_runtime/src/notebooks/000/branding.yml"
+  },
+  "brand_context": {
+    "cta_social": null,
+    "hashtags": {
+      "primary": [],
+      "secondary": [],
+      "boilerplate": []
+    },
+    "keywords": {
+      "core": [
+        "Cosmic Horror",
+        "H.P. Lovecraft",
+        "Existential Dread",
+        "AI Generated Animation",
+        "Apocalyptic Art",
+        "ComfyUI",
+        "Lovecraftian",
+        "Weird Fiction"
+      ],
+      "long_tail": []
+    },
+    "voice_avoid": []
+  },
+  "quota": {
+    "policy": "populate_annotate_export_log_only",
+    "budget_limit": 1000,
+    "body_chars": 1371,
+    "footer_chars": 0,
+    "projected_total_chars": 1371,
+    "remaining_headroom": -371,
+    "exceeded": true,
+    "overage_chars": 371,
+    "pruned": [],
+    "errata": [
+      "ERR_BODY_EXCEEDS_BUDGET",
+      "ERR_QUOTA_EXCEEDED_LOGGED"
+    ]
+  },
+  "taxonomy_ref": {
+    "db_path": "/media/ran/mu/kuma/data/taxonomy.db",
+    "db_present": true,
+    "tool_count": 13
+  },
+  "xyz_stress": {
+    "x_mythos": {
+      "motif": "this_town",
+      "target": "magazine",
+      "body_len": 1371,
+      "has_closer": true
+    },
+    "y_transport": {
+      "surface": "reddit",
+      "stage": "reddit.json",
+      "tiers_tested": [
+        "atomic",
+        "fancy"
+      ]
+    },
+    "z_tooling": {
+      "taxonomy_db": "/media/ran/mu/kuma/data/taxonomy.db",
+      "db_present": true,
+      "tool_count": 13,
+      "tools_by_tier": {
+        "P0": [
+          "blender",
+          "comfyui",
+          "davinci_resolve"
+        ],
+        "P1": [
+          "nvidia_rtx",
+          "python_runtime",
+          "ubuntu_lts"
+        ],
+        "P2": [
+          "fairlight_audio",
+          "mcp_harness"
+        ],
+        "P3": [
+          "nb_branding",
+          "nb_python_automation",
+          "nb_sancai_pedagogy",
+          "nb_seo_hardware",
+          "nb_video_pipeline"
+        ]
+      }
+    }
+  },
+  "precedence": {
+    "1_edit": {
+      "required": true,
+      "status": "universal_gate_present"
+    },
+    "2_fsr": {
+      "applicable": true,
+      "status": "gated_deferred_pending_fsr"
+    },
+    "3_wenwu": {
+      "present": true,
+      "enabled": false,
+      "aligned_with_changes": false,
+      "pressure_policy": "omit"
+    },
+    "4_mianzi": {
+      "source": "taxonomy.db+branding.yml",
+      "weights_populated": false,
+      "tool_ids": [
+        "blender",
+        "comfyui",
+        "davinci_resolve",
+        "nvidia_rtx",
+        "python_runtime",
+        "ubuntu_lts",
+        "fairlight_audio",
+        "mcp_harness",
+        "nb_branding",
+        "nb_python_automation",
+        "nb_sancai_pedagogy",
+        "nb_seo_hardware",
+        "nb_video_pipeline"
+      ]
+    }
   },
   "gates": {
     "allow_template_to_publish": false,
